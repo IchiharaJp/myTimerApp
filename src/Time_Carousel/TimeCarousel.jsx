@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { IosPickerItem } from "./pickerItem";
+import { IosPickerItem } from "./PickerItem";
 import "./TimeCarousel.css";
 
 const TimeCarousel = ({ loop = false, onChange }) => {
