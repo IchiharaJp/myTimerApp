@@ -58,7 +58,6 @@ function App() {
 					/>
 				</div>
 			)}
-			<audio controls src="/sound/ringtone1.mp3" />
 		</div>
 	);
 }

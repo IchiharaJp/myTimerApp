@@ -39,7 +39,7 @@ function Timer({ length, onDelete }) {
 				return 0;
 			}
 		});
-	}, []);
+	}, [playSound]);
 	const timer = useTimer({ delay: 1000 }, increment);
 	const maxTime = Math.floor(length * 60);
 	const progress = ((maxTime - time) / maxTime) * 100;
