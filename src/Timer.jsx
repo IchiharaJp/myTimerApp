@@ -7,8 +7,9 @@ import {
 import "react-circular-progressbar/dist/styles.css";
 import Icons from "./Icons";
 import useSound from "use-sound";
-import ringTone from "./sound/ringtone1.mp3";
 import { BellRing } from "./BellRing";
+
+const ringTone = "/sound/ringtone1.mp3";
 
 function getClockTime(sec) {
 	if (!sec) return <BellRing />;
