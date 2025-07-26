@@ -1,5 +1,5 @@
 import { useState } from "react";
-import TimeCarousel from "./Time_Carousel/timeCarousel";
+import TimeCarousel from "./Time_Carousel/timeCarousel.jsx";
 
 function AddTimer({ onSave, onCancel }) {
 	const [timeInMinutes, setTimeInMinutes] = useState(0);
