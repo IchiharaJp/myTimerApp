@@ -20,7 +20,8 @@ function App() {
 
 	return (
 		<div
-			className={`h-screen flex flex-col items-center justify-center bg-[url(bg/bg${bg}.jpg)] relative`}
+			className="h-screen flex flex-col items-center justify-center relative"
+			style={{ backgroundImage: `url("/bg/bg${bg}.jpg")` }}
 		>
 			<Carousel>
 				{timers.map(({ id, length }) => (
